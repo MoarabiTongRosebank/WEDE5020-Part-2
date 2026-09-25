@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us & Locations | The Copper Loaf Bakery</title>
+  <meta name="description" content="Find The Copper Loaf Bakery's two locations, opening hours, and contact details. Reach out with questions, orders, or feedback, we'd love to hear from you.">
+
+  <!-- Google Fonts: Playfair Display (headings), Montserrat (subheadings), Open Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Flag that JavaScript is available before the page paints (prevents a menu flash) -->
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">The Copper Loaf Bakery</a>
+      </div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About Us</a></li>
+          <li><a class="nav-link" href="products.html">Menu</a></li>
+          <li><a class="nav-link" href="custom-cakes.html">Custom Cakes</a></li>
+          <li><a class="nav-link" href="contact.html" aria-current="page">Contact &amp; Locations</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-header">
+      <h1>Visit Us</h1>
+      <p>Whether you're stopping by for your morning coffee or picking up tomorrow's dinner bread, we'd love to see you at one of our two locations.</p>
+    </section>
+
+    <section class="locations">
+
+      <article class="location">
+        <div class="card-media">
+        <picture>
+          <source type="image/webp" srcset="images/location-downtown-600.webp 600w, images/location-downtown-1200.webp 1200w" sizes="(min-width: 1200px) 580px, (min-width: 769px) 50vw, 100vw">
+          <img src="images/location-downtown-1200.jpg" srcset="images/location-downtown-600.jpg 600w, images/location-downtown-1200.jpg 1200w" sizes="(min-width: 1200px) 580px, (min-width: 769px) 50vw, 100vw" width="1200" height="900" alt="The warm interior of a bakery with a pastry counter and shelves of goods" loading="lazy" decoding="async">
+        </picture>
+        </div>
+        <h2>Copper Loaf Downtown</h2>
+        <p class="address">142 Mill Street, Riverside District</p>
+        <p class="phone">Phone: (021) 555-0142</p>
+        <p class="email">Email: downtown@copperloafbakery.com</p>
+
+        <h3>Opening Hours</h3>
+        <ul class="hours">
+          <li>Monday – Friday: 6:30 AM – 6:00 PM</li>
+          <li>Saturday: 7:00 AM – 5:00 PM</li>
+          <li>Sunday: 8:00 AM – 2:00 PM</li>
+        </ul>
+
+        <p>Tucked beside the old grain mill, our downtown flagship is where it all began. Expect the low hum of the ovens, sun coming through the front windows, and a case full of whatever came out of the oven last.</p>
+      </article>
+
+      <article class="location">
+        <div class="card-media">
+        <picture>
+          <source type="image/webp" srcset="images/location-northside-600.webp 600w, images/location-northside-1200.webp 1200w" sizes="(min-width: 1200px) 580px, (min-width: 769px) 50vw, 100vw">
+          <img src="images/location-northside-1200.jpg" srcset="images/location-northside-600.jpg 600w, images/location-northside-1200.jpg 1200w" sizes="(min-width: 1200px) 580px, (min-width: 769px) 50vw, 100vw" width="1200" height="900" alt="A glass display counter filled with brownies and pastries" loading="lazy" decoding="async">
+        </picture>
+        </div>
+        <h2>Copper Loaf Northside</h2>
+        <p class="address">27 Orchard Lane, Northside Market</p>
+        <p class="phone">Phone: (021) 555-0198</p>
+        <p class="email">Email: northside@copperloafbakery.com</p>
+
+        <h3>Opening Hours</h3>
+        <ul class="hours">
+          <li>Monday – Friday: 7:00 AM – 6:00 PM</li>
+          <li>Saturday: 7:00 AM – 5:00 PM</li>
+          <li>Sunday: Closed</li>
+        </ul>
+
+        <p>Our newer, cozier location inside the Northside Market, perfect for a slower morning with coffee in hand and a pastry warm from the case.</p>
+      </article>
+
+    </section>
+
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <p>Have a question, a bit of feedback, or a special request that doesn't quite fit our cake enquiry form? We'd love to hear from you.</p>
+
+      <form action="#" method="post">
+        <label for="contact-name">Full Name</label>
+        <input type="text" id="contact-name" name="contact-name" placeholder="Your full name" required>
+
+        <label for="contact-email">Email Address</label>
+        <input type="email" id="contact-email" name="contact-email" placeholder="you@example.com" required>
+
+        <label for="contact-location">Which Location Is This About?</label>
+        <select id="contact-location" name="contact-location">
+          <option value="">Select a location</option>
+          <option value="downtown">Copper Loaf Downtown</option>
+          <option value="northside">Copper Loaf Northside</option>
+          <option value="general">General / Both</option>
+        </select>
+
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="contact-message" rows="5" placeholder="Tell us how we can help" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+    <div class="footer-about">
+      <h3>The Copper Loaf Bakery</h3>
+      <p>Small-batch bread, pastry, and cake, baked fresh daily with real butter, real time, and real care.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Menu</a></li>
+        <li><a href="custom-cakes.html">Custom Cakes</a></li>
+        <li><a href="contact.html">Contact & Locations</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-locations">
+      <h3>Visit Us</h3>
+      <p><strong>Copper Loaf Downtown</strong><br>
+      142 Mill Street, Riverside District</p>
+      <p><strong>Copper Loaf Northside</strong><br>
+      27 Orchard Lane, Northside Market</p>
+    </div>
+
+    <div class="footer-social">
+      <h3>Stay Connected</h3>
+      <p>Follow us for daily bake lists, behind-the-scenes flour dust, and first dibs on seasonal specials.</p>
+      <ul class="social-links">
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 The Copper Loaf Bakery. All rights reserved.</p>
+    </div>
+    </div>
+  </footer>
+
+</body>
+</html>

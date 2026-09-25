@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Story | The Copper Loaf Bakery</title>
+  <meta name="description" content="Discover the story behind The Copper Loaf Bakery, from a single copper mixing bowl to a beloved neighborhood bakery led by head baker Elena Marsh.">
+
+  <!-- Google Fonts: Playfair Display (headings), Montserrat (subheadings), Open Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Flag that JavaScript is available before the page paints (prevents a menu flash) -->
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">The Copper Loaf Bakery</a>
+      </div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html" aria-current="page">About Us</a></li>
+          <li><a class="nav-link" href="products.html">Menu</a></li>
+          <li><a class="nav-link" href="custom-cakes.html">Custom Cakes</a></li>
+          <li><a class="nav-link" href="contact.html">Contact &amp; Locations</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-header">
+      <h1>Our Story</h1>
+      <p>How a single copper mixing bowl turned into a bakery the whole neighborhood calls home.</p>
+    </section>
+
+    <section class="our-story split-section">
+      <div class="split-text">
+      <h2>Where It All Began</h2>
+      <p>The Copper Loaf Bakery started in a kitchen far too small for the ambition inside it. It began with one battered copper mixing bowl, inherited and dented, and a recipe for rye bread scrawled in fading pencil on the back of an envelope. That bowl still sits on our shelf today, more decoration than tool now, but it's the reason for our name and the heart of everything we bake.</p>
+      <p>What started as weekend loaves sold from a fold-out table grew, slowly and stubbornly, into two working bakeries. We never rushed it. Bread doesn't rush, and neither did we. Every step, from sourcing our flour to training our bakers, has been built around one question: does this make the bread better? If the answer was no, we didn't do it.</p>
+      <p>Today, The Copper Loaf Bakery is a gathering place as much as a bakery. It's where regulars know exactly which shelf holds the last cinnamon roll, where birthdays are planned over the counter, and where the ovens are lit before the streetlights turn off.</p>
+      </div>
+      <figure class="split-media">
+        <picture>
+          <source type="image/webp" srcset="images/about-bakery-window-600.webp 600w, images/about-bakery-window-1200.webp 1200w" sizes="(min-width: 1200px) 580px, (min-width: 769px) 50vw, 100vw">
+          <img src="images/about-bakery-window-1200.jpg" srcset="images/about-bakery-window-600.jpg 600w, images/about-bakery-window-1200.jpg 1200w" sizes="(min-width: 1200px) 580px, (min-width: 769px) 50vw, 100vw" width="1200" height="900" alt="Fresh loaves stacked behind the old wooden window frames of a traditional bakery" loading="lazy" decoding="async">
+        </picture>
+      </figure>
+    </section>
+
+    <section class="mission split-section split-reverse">
+      <div class="split-text">
+      <h2>Our Mission</h2>
+      <p>We exist to slow food back down. In a world of shortcuts, we proof our doughs for a full day, we laminate our pastry by hand, and we taste everything twice before it ever reaches a customer. We believe good bread and honest cake can hold a community together, one shared slice at a time.</p>
+      <p>We're committed to sourcing responsibly, baking in small batches so nothing sits stale on a shelf, and treating every custom order, whether it's a wedding cake or a Tuesday loaf, with the same care and attention.</p>
+      </div>
+      <figure class="split-media">
+        <picture>
+          <source type="image/webp" srcset="images/about-sliced-bread-600.webp 600w, images/about-sliced-bread-1200.webp 1200w" sizes="(min-width: 1200px) 580px, (min-width: 769px) 50vw, 100vw">
+          <img src="images/about-sliced-bread-1200.jpg" srcset="images/about-sliced-bread-600.jpg 600w, images/about-sliced-bread-1200.jpg 1200w" sizes="(min-width: 1200px) 580px, (min-width: 769px) 50vw, 100vw" width="1200" height="900" alt="A rustic seeded loaf and thick slices of bread on a wooden board" loading="lazy" decoding="async">
+        </picture>
+      </figure>
+    </section>
+
+    <section class="baker-profile split-section">
+      <div class="split-text">
+      <h2>Meet Our Head Baker</h2>
+      <h3 class="baker-name">Elena Marsh</h3>
+      <p>Elena has flour in her blood, quite literally, having grown up in her grandmother's bakery in a village where the whole street smelled like baking bread by 6 a.m. She trained in classical French pâtisserie before returning home to open The Copper Loaf Bakery, determined to blend old-world technique with the warmth of a neighborhood spot.</p>
+      <p class="pull-quote">"I don't bake to impress anyone," Elena says. "I bake so that when you bite into something we've made, you feel like someone thought about you while they made it. That's the whole job."</p>
+      <p>Today, Elena leads a small team of bakers who arrive before dawn to mix, shape, and bake every single item by hand. She still tastes every new recipe herself before it makes it onto the menu, and she still keeps that original copper bowl close by, just in case it's listening.</p>
+      </div>
+      <figure class="split-media">
+        <picture>
+          <source type="image/webp" srcset="images/about-shaping-dough-600.webp 600w, images/about-shaping-dough-1200.webp 1200w" sizes="(min-width: 1200px) 580px, (min-width: 769px) 50vw, 100vw">
+          <img src="images/about-shaping-dough-1200.jpg" srcset="images/about-shaping-dough-600.jpg 600w, images/about-shaping-dough-1200.jpg 1200w" sizes="(min-width: 1200px) 580px, (min-width: 769px) 50vw, 100vw" width="1200" height="900" alt="A baker's hands stretching and shaping a ball of bread dough" loading="lazy" decoding="async">
+        </picture>
+      </figure>
+    </section>
+
+    <section class="gallery" aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading">Inside the Bakery</h2>
+      <p class="section-intro">A peek behind the counter, from the first shaping of the morning to the last coffee of the day.</p>
+      <div class="gallery-grid gallery-feature">
+        <figure class="gallery-item">
+          <picture>
+          <source type="image/webp" srcset="images/gallery-fresh-loaf-400.webp 400w, images/gallery-fresh-loaf-800.webp 800w" sizes="(min-width: 1200px) 400px, (min-width: 769px) 33vw, 50vw">
+          <img src="images/gallery-fresh-loaf-800.jpg" srcset="images/gallery-fresh-loaf-400.jpg 400w, images/gallery-fresh-loaf-800.jpg 800w" sizes="(min-width: 1200px) 400px, (min-width: 769px) 33vw, 50vw" width="800" height="800" alt="A baker holding a round, flour-dusted sourdough loaf" loading="lazy" decoding="async">
+        </picture>
+          <figcaption>Scored by hand, every loaf</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <picture>
+          <source type="image/webp" srcset="images/gallery-shaping-croissants-400.webp 400w, images/gallery-shaping-croissants-800.webp 800w" sizes="(min-width: 1200px) 400px, (min-width: 769px) 33vw, 50vw">
+          <img src="images/gallery-shaping-croissants-800.jpg" srcset="images/gallery-shaping-croissants-400.jpg 400w, images/gallery-shaping-croissants-800.jpg 800w" sizes="(min-width: 1200px) 400px, (min-width: 769px) 33vw, 50vw" width="800" height="800" alt="Hands arranging unbaked croissants on a lined baking tray" loading="lazy" decoding="async">
+        </picture>
+          <figcaption>Shaping croissants at dawn</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <picture>
+          <source type="image/webp" srcset="images/gallery-egg-wash-400.webp 400w, images/gallery-egg-wash-800.webp 800w" sizes="(min-width: 1200px) 400px, (min-width: 769px) 33vw, 50vw">
+          <img src="images/gallery-egg-wash-800.jpg" srcset="images/gallery-egg-wash-400.jpg 400w, images/gallery-egg-wash-800.jpg 800w" sizes="(min-width: 1200px) 400px, (min-width: 769px) 33vw, 50vw" width="800" height="800" alt="A pastry brush dipped in a bowl of golden egg wash" loading="lazy" decoding="async">
+        </picture>
+          <figcaption>A glossy egg-wash finish</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <picture>
+          <source type="image/webp" srcset="images/gallery-cinnamon-buns-400.webp 400w, images/gallery-cinnamon-buns-800.webp 800w" sizes="(min-width: 1200px) 400px, (min-width: 769px) 33vw, 50vw">
+          <img src="images/gallery-cinnamon-buns-800.jpg" srcset="images/gallery-cinnamon-buns-400.jpg 400w, images/gallery-cinnamon-buns-800.jpg 800w" sizes="(min-width: 1200px) 400px, (min-width: 769px) 33vw, 50vw" width="800" height="800" alt="Close-up of glossy, freshly baked cinnamon buns" loading="lazy" decoding="async">
+        </picture>
+          <figcaption>Cinnamon morning buns</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <picture>
+          <source type="image/webp" srcset="images/gallery-baker-at-work-400.webp 400w, images/gallery-baker-at-work-800.webp 800w" sizes="(min-width: 1200px) 400px, (min-width: 769px) 33vw, 50vw">
+          <img src="images/gallery-baker-at-work-800.jpg" srcset="images/gallery-baker-at-work-400.jpg 400w, images/gallery-baker-at-work-800.jpg 800w" sizes="(min-width: 1200px) 400px, (min-width: 769px) 33vw, 50vw" width="800" height="800" alt="A baker in a white cap and apron kneading dough on a floured counter" loading="lazy" decoding="async">
+        </picture>
+          <figcaption>Kneading the day's dough</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <picture>
+          <source type="image/webp" srcset="images/gallery-latte-400.webp 400w, images/gallery-latte-800.webp 800w" sizes="(min-width: 1200px) 400px, (min-width: 769px) 33vw, 50vw">
+          <img src="images/gallery-latte-800.jpg" srcset="images/gallery-latte-400.jpg 400w, images/gallery-latte-800.jpg 800w" sizes="(min-width: 1200px) 400px, (min-width: 769px) 33vw, 50vw" width="800" height="800" alt="A cappuccino with leaf latte art on a patterned café table" loading="lazy" decoding="async">
+        </picture>
+          <figcaption>Coffee from a local roastery</figcaption>
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+    <div class="footer-about">
+      <h3>The Copper Loaf Bakery</h3>
+      <p>Small-batch bread, pastry, and cake, baked fresh daily with real butter, real time, and real care.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Menu</a></li>
+        <li><a href="custom-cakes.html">Custom Cakes</a></li>
+        <li><a href="contact.html">Contact & Locations</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-locations">
+      <h3>Visit Us</h3>
+      <p><strong>Copper Loaf Downtown</strong><br>
+      142 Mill Street, Riverside District</p>
+      <p><strong>Copper Loaf Northside</strong><br>
+      27 Orchard Lane, Northside Market</p>
+    </div>
+
+    <div class="footer-social">
+      <h3>Stay Connected</h3>
+      <p>Follow us for daily bake lists, behind-the-scenes flour dust, and first dibs on seasonal specials.</p>
+      <ul class="social-links">
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 The Copper Loaf Bakery. All rights reserved.</p>
+    </div>
+    </div>
+  </footer>
+
+</body>
+</html>

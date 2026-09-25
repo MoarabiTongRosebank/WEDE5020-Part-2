@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Copper Loaf Bakery | Handcrafted Bread & Pastries, Baked Fresh Daily</title>
+  <meta name="description" content="The Copper Loaf Bakery bakes small-batch sourdough, buttery pastries, and custom celebration cakes fresh every morning. Visit us in-store or order online today.">
+  <meta name="keywords" content="artisan bakery, sourdough bread, custom cakes, pastries, local bakery">
+
+  <!-- Google Fonts: Playfair Display (headings), Montserrat (subheadings), Open Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Flag that JavaScript is available before the page paints (prevents a menu flash) -->
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">The Copper Loaf Bakery</a>
+      </div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html" aria-current="page">Home</a></li>
+          <li><a class="nav-link" href="about.html">About Us</a></li>
+          <li><a class="nav-link" href="products.html">Menu</a></li>
+          <li><a class="nav-link" href="custom-cakes.html">Custom Cakes</a></li>
+          <li><a class="nav-link" href="contact.html">Contact &amp; Locations</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero">
+      <picture class="hero-media">
+          <source type="image/webp" srcset="images/hero-bread-in-hands-800.webp 800w, images/hero-bread-in-hands-1280.webp 1280w, images/hero-bread-in-hands-1920.webp 1920w" sizes="100vw">
+          <img src="images/hero-bread-in-hands-1920.jpg" srcset="images/hero-bread-in-hands-800.jpg 800w, images/hero-bread-in-hands-1280.jpg 1280w, images/hero-bread-in-hands-1920.jpg 1920w" sizes="100vw" width="1920" height="1080" alt="A baker holding a freshly baked, flour-dusted sourdough loaf scored with a wheat pattern" fetchpriority="high" decoding="async">
+        </picture>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Small-batch bakery &middot; Baked fresh daily</p>
+        <h1>Baked with Butter, Time, and a Little Copper Magic</h1>
+        <p class="hero-subtitle">Step into The Copper Loaf, where the ovens never stop humming and the smell of warm crust and cinnamon drifts out onto the sidewalk before the sun's even fully up.</p>
+        <div class="button-group">
+          <a href="products.html" class="cta-button">Explore Our Menu</a>
+          <a href="custom-cakes.html" class="cta-button-secondary">Enquire About a Custom Cake</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="introduction">
+      <h2>A Neighborhood Bakery, One Loaf at a Time</h2>
+      <p>At The Copper Loaf Bakery, we believe bread should crackle when you tear it, pastries should flake onto your plate, and cake should taste like someone's grandmother made it — because in a way, ours did. Every item that leaves our kitchen is mixed, proofed, shaped, and baked by hand, using slow fermentation, real butter, and flour we trust. No shortcuts, no fillers, no rushing what needs time.</p>
+      <p>Whether you're grabbing a flaky croissant on your way to work, picking up a loaf of our signature rosemary sourdough for dinner, or ordering a cake for the biggest day of someone's life, we want your visit to feel like coming home to a kitchen that's always warm.</p>
+    </section>
+
+    <section class="featured-products">
+      <h2>Fresh From the Oven This Week</h2>
+
+      <article class="featured-item">
+        <div class="card-media">
+        <picture>
+          <source type="image/webp" srcset="images/featured-rosemary-sourdough-400.webp 400w, images/featured-rosemary-sourdough-800.webp 800w" sizes="(min-width: 1200px) 280px, (min-width: 600px) 50vw, 100vw">
+          <img src="images/featured-rosemary-sourdough-800.jpg" srcset="images/featured-rosemary-sourdough-400.jpg 400w, images/featured-rosemary-sourdough-800.jpg 800w" sizes="(min-width: 1200px) 280px, (min-width: 600px) 50vw, 100vw" width="800" height="600" alt="Two dark-crusted sourdough loaves on a wooden board" loading="lazy" decoding="async">
+        </picture>
+        </div>
+        <h3>Rosemary Sea Salt Sourdough</h3>
+        <p>A crackling, deeply golden crust gives way to an open, chewy crumb studded with fragrant rosemary and finished with a scatter of flaky sea salt. Fermented for 36 hours for a flavor that's tangy, complex, and utterly addictive.</p>
+        <p class="price">R65</p>
+      </article>
+
+      <article class="featured-item">
+        <div class="card-media">
+        <picture>
+          <source type="image/webp" srcset="images/featured-almond-croissant-400.webp 400w, images/featured-almond-croissant-800.webp 800w" sizes="(min-width: 1200px) 280px, (min-width: 600px) 50vw, 100vw">
+          <img src="images/featured-almond-croissant-800.jpg" srcset="images/featured-almond-croissant-400.jpg 400w, images/featured-almond-croissant-800.jpg 800w" sizes="(min-width: 1200px) 280px, (min-width: 600px) 50vw, 100vw" width="800" height="600" alt="A golden, flaky croissant on a wooden board" loading="lazy" decoding="async">
+        </picture>
+        </div>
+        <h3>Almond Butter Croissant</h3>
+        <p>Laminated dough rolled thirty-six times, folded around a rich almond frangipane, and baked until the layers shatter at the first bite. Dusted with toasted almonds and a whisper of powdered sugar.</p>
+        <p class="price">R48</p>
+      </article>
+
+      <article class="featured-item">
+        <div class="card-media">
+        <picture>
+          <source type="image/webp" srcset="images/featured-caramel-brownie-400.webp 400w, images/featured-caramel-brownie-800.webp 800w" sizes="(min-width: 1200px) 280px, (min-width: 600px) 50vw, 100vw">
+          <img src="images/featured-caramel-brownie-800.jpg" srcset="images/featured-caramel-brownie-400.jpg 400w, images/featured-caramel-brownie-800.jpg 800w" sizes="(min-width: 1200px) 280px, (min-width: 600px) 50vw, 100vw" width="800" height="600" alt="A fudgy chocolate brownie slab drizzled with salted caramel on a white plate" loading="lazy" decoding="async">
+        </picture>
+        </div>
+        <h3>Salted Caramel Brownie</h3>
+        <p>Dense, fudgy, and edged with a delicate crackly top, our brownie is swirled with house-made salted caramel that oozes with every warm forkful.</p>
+        <p class="price">R38</p>
+      </article>
+
+      <article class="featured-item">
+        <div class="card-media">
+        <picture>
+          <source type="image/webp" srcset="images/featured-vanilla-cake-400.webp 400w, images/featured-vanilla-cake-800.webp 800w" sizes="(min-width: 1200px) 280px, (min-width: 600px) 50vw, 100vw">
+          <img src="images/featured-vanilla-cake-800.jpg" srcset="images/featured-vanilla-cake-400.jpg 400w, images/featured-vanilla-cake-800.jpg 800w" sizes="(min-width: 1200px) 280px, (min-width: 600px) 50vw, 100vw" width="800" height="600" alt="A white buttercream celebration cake decorated with fresh flowers" loading="lazy" decoding="async">
+        </picture>
+        </div>
+        <h3>Classic Vanilla Bean Celebration Cake</h3>
+        <p>Layers of tender vanilla bean sponge, filled and finished with silky Swiss meringue buttercream. Simple, timeless, and endlessly customizable for your next occasion.</p>
+        <p class="price">From R450</p>
+      </article>
+
+      <a href="products.html" class="cta-button">See the Full Menu</a>
+    </section>
+
+    <section class="testimonials" aria-labelledby="testimonials-heading">
+      <h2 id="testimonials-heading">What Our Regulars Say</h2>
+      <div class="testimonial-grid">
+        <figure class="testimonial-card">
+          <blockquote>
+            <p>The rosemary sourdough has ruined supermarket bread for my whole family. We plan our Saturday mornings around it.</p>
+          </blockquote>
+          <figcaption class="testimonial-author">Thandi M. &middot; Downtown regular</figcaption>
+        </figure>
+        <figure class="testimonial-card">
+          <blockquote>
+            <p>They made our wedding cake and it was the first thing guests talked about. Elena listened to every detail we cared about.</p>
+          </blockquote>
+          <figcaption class="testimonial-author">Pieter &amp; Anika V. &middot; Custom cake</figcaption>
+        </figure>
+        <figure class="testimonial-card">
+          <blockquote>
+            <p>Best almond croissant I have had outside of Paris. The Northside team always remembers my coffee order too.</p>
+          </blockquote>
+          <figcaption class="testimonial-author">Sipho K. &middot; Northside regular</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="homepage-callout">
+      <h2>Celebrating Something Sweet?</h2>
+      <p>From first birthdays to golden anniversaries, we've been trusted to bake the centerpiece of countless celebrations. Tell us your vision, and we'll bring it to life, one layer at a time.</p>
+      <a href="custom-cakes.html" class="cta-button">Start Your Cake Enquiry</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+    <div class="footer-about">
+      <h3>The Copper Loaf Bakery</h3>
+      <p>Small-batch bread, pastry, and cake, baked fresh daily with real butter, real time, and real care.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Menu</a></li>
+        <li><a href="custom-cakes.html">Custom Cakes</a></li>
+        <li><a href="contact.html">Contact & Locations</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-locations">
+      <h3>Visit Us</h3>
+      <p><strong>Copper Loaf Downtown</strong><br>
+      142 Mill Street, Riverside District</p>
+      <p><strong>Copper Loaf Northside</strong><br>
+      27 Orchard Lane, Northside Market</p>
+    </div>
+
+    <div class="footer-social">
+      <h3>Stay Connected</h3>
+      <p>Follow us for daily bake lists, behind-the-scenes flour dust, and first dibs on seasonal specials.</p>
+      <ul class="social-links">
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 The Copper Loaf Bakery. All rights reserved.</p>
+    </div>
+    </div>
+  </footer>
+
+</body>
+</html>

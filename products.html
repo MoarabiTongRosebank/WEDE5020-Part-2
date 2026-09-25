@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu | Breads, Pastries & Cakes at The Copper Loaf Bakery</title>
+  <meta name="description" content="Browse our full menu of hand-shaped sourdough breads, buttery pastries, celebration cakes, and daily treats, complete with prices. Baked fresh every morning.">
+
+  <!-- Google Fonts: Playfair Display (headings), Montserrat (subheadings), Open Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Flag that JavaScript is available before the page paints (prevents a menu flash) -->
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">The Copper Loaf Bakery</a>
+      </div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About Us</a></li>
+          <li><a class="nav-link" href="products.html" aria-current="page">Menu</a></li>
+          <li><a class="nav-link" href="custom-cakes.html">Custom Cakes</a></li>
+          <li><a class="nav-link" href="contact.html">Contact &amp; Locations</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-header">
+      <h1>Our Menu</h1>
+      <p>Everything here is baked in-house, in small batches, starting before sunrise. Availability may vary by day, so ask us what's freshest when you visit.</p>
+    </section>
+
+    <section class="menu-category">
+      <figure class="category-banner">
+        <picture>
+          <source type="image/webp" srcset="images/menu-breads-600.webp 600w, images/menu-breads-1200.webp 1200w" sizes="(min-width: 1200px) 1200px, 100vw">
+          <img src="images/menu-breads-1200.jpg" srcset="images/menu-breads-600.jpg 600w, images/menu-breads-1200.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" width="1200" height="480" alt="Crusty artisan bread rolls in a basket" loading="lazy" decoding="async">
+        </picture>
+      </figure>
+      <h2>Breads</h2>
+
+      <article class="menu-item">
+        <h3>Rosemary Sea Salt Sourdough</h3>
+        <p>A crackling, deeply golden crust gives way to an open, chewy crumb studded with fragrant rosemary and finished with flaky sea salt. Naturally leavened and fermented for 36 hours.</p>
+        <p class="price">R65</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Classic Country Sourdough</h3>
+        <p>Our founding loaf. Tangy, chewy, and blistered on top, with a soft, custardy interior that toasts into something close to perfection.</p>
+        <p class="price">R58</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Honey Wheat Sandwich Loaf</h3>
+        <p>Soft, faintly sweet, and sliced thick, this everyday loaf is made for stacking with whatever you love best between two slices.</p>
+        <p class="price">R52</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Dark Rye with Caraway</h3>
+        <p>Dense, earthy, and threaded with caraway seed, this loaf carries a deep molasses color and a flavor that only gets better a day later.</p>
+        <p class="price">R60</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Baguette</h3>
+        <p>Crisp, shattering crust with an airy, irregular crumb. Best eaten still warm, torn straight from the bag.</p>
+        <p class="price">R35</p>
+      </article>
+    </section>
+
+    <section class="menu-category">
+      <figure class="category-banner">
+        <picture>
+          <source type="image/webp" srcset="images/menu-pastries-600.webp 600w, images/menu-pastries-1200.webp 1200w" sizes="(min-width: 1200px) 1200px, 100vw">
+          <img src="images/menu-pastries-1200.jpg" srcset="images/menu-pastries-600.jpg 600w, images/menu-pastries-1200.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" width="1200" height="480" alt="A bakery display case filled with croissants and pastries" loading="lazy" decoding="async">
+        </picture>
+      </figure>
+      <h2>Pastries</h2>
+
+      <article class="menu-item">
+        <h3>Almond Butter Croissant</h3>
+        <p>Laminated dough rolled thirty-six times, folded around rich almond frangipane, and baked until the layers shatter at the first bite.</p>
+        <p class="price">R48</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Classic Butter Croissant</h3>
+        <p>Golden, flaky, and impossibly light, our plain croissant is proof that simple things done well need nothing extra.</p>
+        <p class="price">R38</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Pain au Chocolat</h3>
+        <p>Two ribbons of dark chocolate wrapped in buttery laminated dough, baked until deeply golden and softly molten inside.</p>
+        <p class="price">R42</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Cinnamon Sugar Morning Bun</h3>
+        <p>A spiraled, caramelized swirl of cinnamon and brown sugar, crisp on the outside edges and impossibly soft at the center.</p>
+        <p class="price">R45</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Seasonal Fruit Danish</h3>
+        <p>A pillowy base of laminated dough cradling a pool of vanilla custard and whatever fruit is at its sweetest this season.</p>
+        <p class="price">R44</p>
+      </article>
+    </section>
+
+    <section class="menu-category">
+      <figure class="category-banner">
+        <picture>
+          <source type="image/webp" srcset="images/menu-cakes-600.webp 600w, images/menu-cakes-1200.webp 1200w" sizes="(min-width: 1200px) 1200px, 100vw">
+          <img src="images/menu-cakes-1200.jpg" srcset="images/menu-cakes-600.jpg 600w, images/menu-cakes-1200.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" width="1200" height="480" alt="Stacked chocolate brownies topped with walnuts and pomegranate" loading="lazy" decoding="async">
+        </picture>
+      </figure>
+      <h2>Cakes & Sweets</h2>
+
+      <article class="menu-item">
+        <h3>Salted Caramel Brownie</h3>
+        <p>Dense and fudgy with a delicate crackly top, swirled with house-made salted caramel that oozes with every warm forkful.</p>
+        <p class="price">R38</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Classic Vanilla Bean Slice</h3>
+        <p>Tender vanilla bean sponge layered with silky Swiss meringue buttercream, sold by the slice for an everyday celebration.</p>
+        <p class="price">R55</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Double Chocolate Fudge Slice</h3>
+        <p>Rich, moist chocolate sponge filled with dark chocolate ganache, finished with a glossy chocolate glaze.</p>
+        <p class="price">R58</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Lemon Curd Tart</h3>
+        <p>A crisp, buttery shortcrust shell filled with bright, tangy lemon curd and finished with a torch-kissed meringue swirl.</p>
+        <p class="price">R50</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Whole Celebration Cakes</h3>
+        <p>Custom-designed layer cakes for birthdays, weddings, and every occasion in between. Visit our Custom Cake Enquiry page to begin designing yours.</p>
+        <p class="price">From R450</p>
+      </article>
+    </section>
+
+    <section class="menu-category">
+      <figure class="category-banner">
+        <picture>
+          <source type="image/webp" srcset="images/menu-coffee-600.webp 600w, images/menu-coffee-1200.webp 1200w" sizes="(min-width: 1200px) 1200px, 100vw">
+          <img src="images/menu-coffee-1200.jpg" srcset="images/menu-coffee-600.jpg 600w, images/menu-coffee-1200.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" width="1200" height="480" alt="A cappuccino with latte art on a wooden table" loading="lazy" decoding="async">
+        </picture>
+      </figure>
+      <h2>Coffee & Drinks</h2>
+
+      <article class="menu-item">
+        <h3>House Filter Coffee</h3>
+        <p>Freshly brewed each hour, sourced from a local roastery we've trusted for years.</p>
+        <p class="price">R28</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Cappuccino</h3>
+        <p>Rich espresso topped with velvety steamed milk foam, dusted with cocoa.</p>
+        <p class="price">R35</p>
+      </article>
+
+      <article class="menu-item">
+        <h3>Chai Latte</h3>
+        <p>Warm spiced tea concentrate steamed with milk, comforting on even the coldest morning.</p>
+        <p class="price">R38</p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+    <div class="footer-about">
+      <h3>The Copper Loaf Bakery</h3>
+      <p>Small-batch bread, pastry, and cake, baked fresh daily with real butter, real time, and real care.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Menu</a></li>
+        <li><a href="custom-cakes.html">Custom Cakes</a></li>
+        <li><a href="contact.html">Contact & Locations</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-locations">
+      <h3>Visit Us</h3>
+      <p><strong>Copper Loaf Downtown</strong><br>
+      142 Mill Street, Riverside District</p>
+      <p><strong>Copper Loaf Northside</strong><br>
+      27 Orchard Lane, Northside Market</p>
+    </div>
+
+    <div class="footer-social">
+      <h3>Stay Connected</h3>
+      <p>Follow us for daily bake lists, behind-the-scenes flour dust, and first dibs on seasonal specials.</p>
+      <ul class="social-links">
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 The Copper Loaf Bakery. All rights reserved.</p>
+    </div>
+    </div>
+  </footer>
+
+</body>
+</html>
